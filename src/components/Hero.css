@@ -1,0 +1,131 @@
+.hero {
+  /* background-color: black; */
+  color: white;
+}
+
+.herosection {
+  padding: 64px 0px;
+}
+p {
+  margin: 0;
+}
+
+.traits {
+  height: 500px;
+}
+.priceing {
+  margin-top: 100px !important;
+}
+.details {
+  position: relative;
+  padding: 24px;
+
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.details h1 {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 77px;
+
+  color: #ffffff;
+  text-shadow: 0px 0px 47px rgba(0, 0, 0, 0.3);
+  transition: 2s ease 0.8s;
+}
+.details .hero-content {
+  background: #1f1f1fa8;
+  opacity: 1;
+  padding: 18px 20px;
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  opacity: 0;
+  height: 0px;
+  transition: 2s ease 0.5s;
+  overflow: hidden;
+}
+.details .hero-content p {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: justify;
+  color: #ffffff;
+}
+.secondcontent {
+  height: 100px !important;
+}
+
+.secondcontent b,
+.secondcontent p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-align: start;
+  margin-top: 10px;
+}
+.priceing .details {
+  width: 150px;
+  transition: 2s ease 0.5s;
+}
+
+.details .border1 {
+  height: 100px;
+  width: 100px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+.details .border2 {
+  height: 100px;
+  width: 100px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+.details .border3 {
+  height: 100px;
+  width: 100px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+.details .border4 {
+  height: 100px;
+  width: 100px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.hero-content .bld {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.priceing .details1 {
+  background: #1f1f1f7d;
+  padding: 20px 40px;
+}
